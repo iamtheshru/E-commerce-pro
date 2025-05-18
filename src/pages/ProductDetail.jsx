@@ -17,7 +17,7 @@ const ProductDetail = () => {
       <p>{product.description}</p>
       <button
         onClick={() => dispatch(addToCart(product))}
-        className="mt-2 bg-green-500 text-white px-4 py-1 rounded"
+        className="mt-2 bg-blue-500 text-white px-4 py-1 rounded"
       >
         Add to Cart
       </button>
